@@ -1,12 +1,13 @@
 <?php
 
-class ProjectController extends Controller
+class IssueController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
+    private $_project = null;
 
 	/**
 	 * @return array action filters
@@ -16,6 +17,7 @@ class ProjectController extends Controller
 		return array(
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
+            'projectContext + create index admin',
 		);
 	}
 
@@ -51,21 +53,8 @@ class ProjectController extends Controller
 	 */
 	public function actionView($id)
 	{
-        $issueDataProvider = new CActiveDataProvider(
-            'Issue',
-            array(
-                'criteria' => array(
-                    'condition' => 'project_id=:projectId',
-                    'params' => array(
-                        ':projectId' => $this->loadModel($id)->id,
-                    ),
-                ),
-                'pagination' => array('pageSize' => 1),
-            )
-        );
-		$this->render('view', array(
+		$this->render('view',array(
 			'model'=>$this->loadModel($id),
-            'issueDataProvider' => $issueDataProvider,
 		));
 	}
 
@@ -75,14 +64,15 @@ class ProjectController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Project;
+		$model=new Issue;
+        $model->project_id = $this->_project->id;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Project']))
+		if(isset($_POST['Issue']))
 		{
-			$model->attributes=$_POST['Project'];
+			$model->attributes=$_POST['Issue'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -104,9 +94,9 @@ class ProjectController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Project']))
+		if(isset($_POST['Issue']))
 		{
-			$model->attributes=$_POST['Project'];
+			$model->attributes=$_POST['Issue'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -135,9 +125,20 @@ class ProjectController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Project');
+        $dataProvider=new CActiveDataProvider(
+            'Issue',
+            array(
+                'criteria' => array(
+                    'condition' => 'project_id=:projectId',
+                    'params' => array(
+                        ':projectId' => $this->_project->id,
+                    ),
+                )
+            )
+        );
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
+			'pid'=>$this->_project->id,
 		));
 	}
 
@@ -146,10 +147,12 @@ class ProjectController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Project('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Project']))
-			$model->attributes=$_GET['Project'];
+		$model=new Issue('search');
+		//$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['Issue']))
+			$model->attributes=$_GET['Issue'];
+
+        $model->project_id = $this->_project->id;
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -160,27 +163,52 @@ class ProjectController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Project the loaded model
+	 * @return Issue the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=Project::model()->findByPk($id);
+		$model=Issue::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
 	}
+    protected function loadProject($project_id) {
+    //if the project property is null, create it based on input id
+        if ($this->_project === null) {
+            $this->_project = Project::model()->findbyPk($project_id);
+            if ($this->_project === null) {
+                throw new CHttpException(404, 'The requested project does not exist.');
+            }
+        }
+        return $this->_project;
+    }
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Project $model the model to be validated
+	 * @param Issue $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='project-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='issue-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
 	}
+     public function filterProjectContext($filterChain)
+     {
+         $projectId = null;
+         if (isset($_GET['pid'])) {
+             $projectId = $_GET['pid'];
+         } else if (isset($_POST['pid'])) {
+             $projectId = $_POST['pid'];
+         }
+         $this->loadProject($projectId); // may throw CHttpException(404)
+         $filterChain->run();
+     }
+    public function getProject()
+    {
+        return $this->_project;
+    }
 }
