@@ -171,5 +171,4 @@ class Project extends TrackStarActiveRecord
         return $command->execute()==1 ? true : false;
     }
 
-
 }
