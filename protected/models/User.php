@@ -21,6 +21,7 @@
  */
 class User extends CActiveRecord
 {
+    public $password_repeat;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -37,10 +38,12 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('email', 'required'),
-			array('create_user_id, update_user_id', 'numerical', 'integerOnly'=>true),
+            array('password', 'compare'),
+            array('password_repeat', 'safe'), // safe的意思是，这个字段和底层数据库表之间没有对应关系。允许这个属性在setAttributes()被调用时被设置。
+            // 默认的，除了主键外的所有底层数据库表里的字段都被视为安全的。
+			array('email, username, password', 'required'),
+			array('email, username', 'unique'),
 			array('email, username, password', 'length', 'max'=>256),
-			array('last_login_time, create_time, update_time', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, email, username, password, last_login_time, create_time, create_user_id, update_time, update_user_id', 'safe', 'on'=>'search'),
@@ -122,4 +125,11 @@ class User extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+    protected function afterValidate() {
+        parent::afterValidate();
+        $this->password = $this->encrypt($this->password);
+    }
+    public function encrypt($value) {
+        return md5($value);
+    }
 }

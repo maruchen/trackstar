@@ -6,6 +6,8 @@ class ProjectTest extends CDbTestCase
     'projects'=>'Project',
     'users' => 'User',
     'projUsrAssign' => ':tbl_project_user_assignment',
+    'projUserRole' => ':tbl_project_user_role',
+    'authAssign' => ':AuthAssignment',
   );
 
     public function testCreate() 
@@ -16,18 +18,22 @@ class ProjectTest extends CDbTestCase
        $newProject->setAttributes(array( 
            'name' => $newProjectName, 
            'description' => 'This is a test for new project creation', 
+           /*
            'createTime' => '2009-09-09 00:00:00', 
            'createUser' => '1', 
            'updateTime' => '2009-09-09 00:00:00', 
            'updateUser' => '1', 
+            */
        ));
- 
-       $this->assertTrue($newProject->save(false)); 
+       Yii::app()->user->setId($this->users('user1')->id);
+
+       $this->assertTrue($newProject->save()); 
  
        //READ back the newly created Project to ensure the creation worked
        $retrievedProject=Project::model()->findByPk($newProject->id);
        $this->assertTrue($retrievedProject instanceof Project);
        $this->assertEquals($newProjectName,$retrievedProject->name);
+       $this->assertEquals(Yii::app()->user->id, $retrievedProject->create_user_id);
     }
  
     public function testRead() 
@@ -49,6 +55,7 @@ class ProjectTest extends CDbTestCase
        $this->assertEquals($updatedProjectName,$updatedProject->name);
     }
  
+    /*
     public function testDelete()
     { 
        $project = $this->projects('project2'); 
@@ -57,6 +64,7 @@ class ProjectTest extends CDbTestCase
        $deletedProject=Project::model()->findByPk($savedProjectId); 
        $this->assertEquals(NULL,$deletedProject); 
     }
+     */
 
     public function testGetUserOpetions()
     {
@@ -64,6 +72,57 @@ class ProjectTest extends CDbTestCase
         $options = $project->userOptions;
         $this->assertTrue(is_array($options));
         $this->assertTrue(count($options)>0);
+    }
+
+    public function testUserRoleAssignment() {
+        $project = $this->projects('project1');
+        $user = $this->users('user1');
+        $this->assertEquals(1, $project->associateUserToRole('owner', $user->id));
+        $this->assertEquals(1, $project->removeUserFromRole('owner', $user->id));
+    }
+
+    public function testIsInRole() {
+        $row1 = $this->projUserRole['row1'];
+        Yii::app()->user->setId($row1['user_id']);
+        $project = Project::model()->findByPk($row1['project_id']);
+        $this->assertTrue($project->isUserInRole('member'));
+    }
+
+    public function testUserAccessBasedOnProjectRole() {
+        $row1 = $this->projUserRole['row1'];
+        Yii::app()->user->setId($row1['user_id']);
+        $project = Project::model()->findByPk($row1['project_id']);
+        $auth = Yii::app()->authManager;
+        $bizRule = 'return isset($params["project"]) && $params["project"]->isUserInRole("member");';  // 注意单引号内最后有个分号;
+        $auth->assign('member', $row1['user_id'], $bizRule); // 向AuthAssignment表插入一行数据
+        $params = array('project' => $project);
+        $this->assertTrue(Yii::app()->user->checkAccess('updateIssue', $params));
+        $this->assertTrue(Yii::app()->user->checkAccess('readIssue', $params));
+        $this->assertFalse(Yii::app()->user->checkAccess('updateProject', $params));
+
+        //now ensure the user does not have any access to a project they are not associated with
+        $project=Project::model()->findByPk(1); 
+        $params=array('project'=>$project); 
+        $this->assertFalse(Yii::app()->user->checkAccess('updateIssue', $params)); 
+        $this->assertFalse(Yii::app()->user->checkAccess('readIssue', $params)); 
+        $this->assertFalse(Yii::app()->user->checkAccess('updateProject', $params));
+    }
+
+    public function testGetUserRoleOptions() 
+    {
+        $options = Project::getUserRoleOptions();
+        $this->assertEquals(count($options),3);
+        $this->assertTrue(isset($options['reader']));
+        $this->assertTrue(isset($options['member']));
+        $this->assertTrue(isset($options['owner']));
+    }
+ 
+    public function testUserProjectAssignment()
+    {
+        //since our fixture data already has the two users 
+        //assigned to project 1, we'll assign user 1 to project 2
+        $this->projects('project2')->associateUserToProject($this->users('user1'));
+        $this->assertTrue($this->projects('project1')->isUserInProject($this->users('user1')));
     }
 }
 

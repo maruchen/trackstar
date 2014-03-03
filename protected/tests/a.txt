@@ -1,0 +1,9 @@
+PHPUnit 3.7.31 by Sebastian Bergmann.
+
+Configuration read from D:\Users\chenjing07\Desktop\github\trackstar\protected\tests\phpunit.xml
+
+.......
+
+Time: 1.45 seconds, Memory: 9.25Mb
+
+OK (7 tests, 20 assertions)
