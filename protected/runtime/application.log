@@ -350,3 +350,31 @@ Stack trace:
 REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
 HTTP_REFERER=http://localhost/trackstar/index.php?r=project/adduser&id=1
 ---
+2014/03/04 13:47:26 [error] [php] include(RecentComments.php): failed to open stream: No such file or directory (D:\Users\chenjing07\Desktop\github\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\Users\chenjing07\Desktop\github\framework\web\CWidgetFactory.php(146): import()
+#1 D:\Users\chenjing07\Desktop\github\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#2 D:\Users\chenjing07\Desktop\github\framework\web\CBaseController.php(172): ProjectController->createWidget()
+#3 D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php(25): ProjectController->widget()
+#4 D:\Users\chenjing07\Desktop\github\framework\web\CBaseController.php(126): require()
+#5 D:\Users\chenjing07\Desktop\github\framework\web\CBaseController.php(95): ProjectController->renderInternal()
+#6 D:\Users\chenjing07\Desktop\github\framework\web\CController.php(869): ProjectController->renderFile()
+#7 D:\Users\chenjing07\Desktop\github\framework\web\CController.php(782): ProjectController->renderPartial()
+#8 D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php(141): ProjectController->render()
+#9 D:\Users\chenjing07\Desktop\github\framework\web\actions\CInlineAction.php(49): ProjectController->actionIndex()
+#10 D:\Users\chenjing07\Desktop\github\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\Users\chenjing07\Desktop\github\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#12 D:\Users\chenjing07\Desktop\github\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 D:\Users\chenjing07\Desktop\github\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 D:\Users\chenjing07\Desktop\github\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#15 D:\Users\chenjing07\Desktop\github\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 D:\Users\chenjing07\Desktop\github\framework\web\CController.php(291): CFilterChain->run()
+#17 D:\Users\chenjing07\Desktop\github\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#18 D:\Users\chenjing07\Desktop\github\framework\web\CWebApplication.php(282): ProjectController->run()
+#19 D:\Users\chenjing07\Desktop\github\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 D:\Users\chenjing07\Desktop\github\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 D:\Users\chenjing07\Desktop\github\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=project
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (25)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (141)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)

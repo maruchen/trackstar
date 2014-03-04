@@ -47,3 +47,8 @@ $this->widget('zii.widgets.CListView', array(
     'itemView' => '/issue/_view',
 ));
 ?>
+<?php $this->beginWidget('zii.widgets.CPortlet', array( 
+    'title'=>'Recent Project Comments',
+));
+$this->widget('RecentComments', array('projectId'=>$model->id));
+$this->endWidget(); ?>
