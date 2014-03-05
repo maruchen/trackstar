@@ -38,16 +38,19 @@ return array(
             'connectionID' => 'db',
         ),
 		// uncomment the following to enable URLs in path-format
-		/*
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
+                '<pid:\d+>/commentfeed'=>array('site/commentFeed', 'urlSuffix'=>'.xml', 'caseSensitive'=>false),
+                'commentfeed'=>array('comment/feed', 'urlSuffix'=>'.xml', 'caseSensitive'=>false),
+                /*
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                 */
 			),
+            'showScriptName' => false,
 		),
-		*/
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=trackstar',
 			'emulatePrepare' => true,

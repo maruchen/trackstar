@@ -8,6 +8,7 @@ class IssueController extends Controller
 	 */
 	public $layout='//layouts/column2';
     private $_project = null;
+    private $_model = null;
 
 	/**
 	 * @return array action filters

@@ -63,6 +63,10 @@ class ProjectController extends Controller
                 'pagination' => array('pageSize' => 1),
             )
         );
+        Yii::app()->clientScript->registerLinkTag( 
+            'alternate',
+            'application/rss+xml',
+            $this->createUrl('comment/feed',array('pid'=>$this->loadModel($id)->id)));
 		$this->render('view', array(
 			'model'=>$this->loadModel($id),
             'issueDataProvider' => $issueDataProvider,
@@ -136,6 +140,10 @@ class ProjectController extends Controller
 	public function actionIndex()
 	{
 		$dataProvider=new CActiveDataProvider('Project');
+        Yii::app()->clientScript->registerLinkTag(
+            'alternate',
+            'application/rss+xml',
+            $this->createUrl('comment/feed'));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
