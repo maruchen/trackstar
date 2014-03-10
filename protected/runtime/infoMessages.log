@@ -1,0 +1,1096 @@
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "log" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "request" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "user" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "session" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (143)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [application] in getLatest()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (108)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.ar.CActiveRecord] SysMessage.find()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "db" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_sys_message`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sys_message` `t` ORDER BY t.update_time DESC LIMIT 1
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [application] sysMessage != null
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (126)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "themeManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.ar.CActiveRecord] Project.count()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "assetManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:07:23 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  ORDER BY t.create_time DESC LIMIT 5
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:07:23 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_time` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:07:23 [trace] [system.CModule] Loading "authManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:07:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "log" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "request" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "cache" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.caching.CFileCache] Saving "Yii.CUrlManager.rules" to cache
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "user" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "session" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (143)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [application] in getLatest()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (108)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [application] cache != null
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (111)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.ar.CActiveRecord] SysMessage.find()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "db" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_sys_message`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sys_message` `t` ORDER BY t.update_time DESC LIMIT 1
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (122)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [application] sysMessage != null
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (126)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [application] set key
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.caching.CFileCache] Saving "TrackStar.ProjectListing.SystemMessage" to cache
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (131)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: select id from tbl_sys_message order by update_time desc
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (131)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.ar.CActiveRecord] Project.count()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "assetManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:17 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  ORDER BY t.create_time DESC LIMIT 5
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:17 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_time` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:17 [trace] [system.CModule] Loading "authManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:08:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:08:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "log" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "request" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "cache" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "user" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "session" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (143)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [application] in getLatest()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (108)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [application] cache != null
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (111)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "db" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: select id from tbl_sys_message order by update_time desc
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.caching.CFileCache] Serving "TrackStar.ProjectListing.SystemMessage" from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "themeManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.db.ar.CActiveRecord] Project.count()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "assetManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:08:24 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  ORDER BY t.create_time DESC LIMIT 5
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:24 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_time` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (35)
+2014/03/10 05:08:24 [trace] [system.CModule] Loading "authManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:08:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:08:24 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "log" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "request" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "cache" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "user" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "session" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (143)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [application] in getLatest()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (108)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [application] cache != null
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (111)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "db" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: select id from tbl_sys_message order by update_time desc
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.caching.CFileCache] Serving "TrackStar.ProjectListing.SystemMessage" from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "themeManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.db.ar.CActiveRecord] Project.count()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "assetManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (38)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (38)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (38)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (38)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (38)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  ORDER BY t.create_time DESC LIMIT 5
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (129)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (38)
+2014/03/10 05:14:18 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (38)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (38)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (38)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_time` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (38)
+2014/03/10 05:14:18 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.TrackStar.ProjectListing.RecentComments..project/index....." to cache
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (40)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:18 [trace] [system.CModule] Loading "authManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:18 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:18 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:20 [trace] [system.CModule] Loading "log" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:20 [trace] [system.CModule] Loading "request" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:20 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:20 [trace] [system.CModule] Loading "cache" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:20 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:20 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:20 [trace] [system.CModule] Loading "user" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:20 [trace] [system.CModule] Loading "session" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:20 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:20 [trace] [system.CModule] Loading "errorHandler" application component
+2014/03/10 05:14:20 [trace] [system.CModule] Loading "themeManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\SiteController.php (47)
+2014/03/10 05:14:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column1.php (2)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\SiteController.php (47)
+2014/03/10 05:14:21 [trace] [system.CModule] Loading "authManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column1.php (6)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\SiteController.php (47)
+2014/03/10 05:14:21 [trace] [system.CModule] Loading "db" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column1.php (6)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\SiteController.php (47)
+2014/03/10 05:14:21 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column1.php (6)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\SiteController.php (47)
+2014/03/10 05:14:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column1.php (6)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\SiteController.php (47)
+2014/03/10 05:14:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column1.php (6)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\SiteController.php (47)
+2014/03/10 05:14:21 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column1.php (6)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\SiteController.php (47)
+2014/03/10 05:14:21 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\SiteController.php (47)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "log" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "request" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "cache" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "user" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "session" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (143)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [application] in getLatest()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (108)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [application] cache != null
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (111)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "db" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.db.CDbCommand] Querying SQL: select id from tbl_sys_message order by update_time desc
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.caching.CFileCache] Serving "TrackStar.ProjectListing.SystemMessage" from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "themeManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.db.ar.CActiveRecord] Project.count()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "assetManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.caching.CFileCache] Serving "Yii.COutputCache.TrackStar.ProjectListing.RecentComments..project/index....." from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (34)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:23 [trace] [system.CModule] Loading "authManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "log" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "request" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "cache" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.base.CModule] Loading "admin" module
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "authManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\AdminModule.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "db" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\AdminModule.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\AdminModule.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "user" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\AdminModule.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "session" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\AdminModule.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\AdminModule.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\AdminModule.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\AdminModule.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "themeManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\controllers\DefaultController.php (8)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\views\layouts\main.php (38)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\controllers\DefaultController.php (8)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\views\layouts\main.php (43)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\controllers\DefaultController.php (8)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:25 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\controllers\DefaultController.php (8)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "log" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "request" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "cache" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "user" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "session" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (143)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [application] in getLatest()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (108)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [application] cache != null
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (111)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "db" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.db.CDbCommand] Querying SQL: select id from tbl_sys_message order by update_time desc
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.caching.CFileCache] Serving "TrackStar.ProjectListing.SystemMessage" from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\modules\admin\models\SysMessage.php (113)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (154)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "themeManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.db.ar.CActiveRecord] Project.count()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "assetManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:26 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (30)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:27 [trace] [system.caching.CFileCache] Serving "Yii.COutputCache.TrackStar.ProjectListing.RecentComments..project/index....." from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\index.php (34)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:27 [trace] [system.CModule] Loading "authManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (165)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "log" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "request" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "cache" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "user" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "session" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (192)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (60)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "db" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (192)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (60)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (192)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (60)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (192)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (60)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (192)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (60)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` WHERE `t`.`id`=1 LIMIT 1
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (192)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (60)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (66)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (192)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (69)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` WHERE `t`.`id`=1 LIMIT 1
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (192)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (69)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (192)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (71)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` WHERE `t`.`id`=1 LIMIT 1
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (192)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (71)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "themeManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "authManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (19)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (19)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (19)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "createUser"
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (19)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (19)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (41)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (41)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "assetManager" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (41)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.CModule] Loading "format" application component
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (41)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.ar.CActiveRecord] Issue.count()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (48)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (48)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (48)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_issue` `t` WHERE project_id=:projectId
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (48)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.ar.CActiveRecord] Issue.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (48)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_issue` `t` WHERE project_id=:projectId LIMIT 1
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (48)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+in D:\Users\chenjing07\Desktop\github\trackstar\index.php (13)
+2014/03/10 05:14:30 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (123)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (53)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (123)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (53)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (123)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (53)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  WHERE (project_id=1) ORDER BY t.create_time DESC LIMIT 5
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\models\Comment.php (123)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (13)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (53)
+2014/03/10 05:14:30 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (53)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (53)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (53)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_time` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\views\recentComments.php (4)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\components\RecentComments.php (24)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\project\view.php (53)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+2014/03/10 05:14:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)
+2014/03/10 05:14:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in D:\Users\chenjing07\Desktop\github\trackstar\themes\new\views\layouts\main.php (35)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\views\layouts\column2.php (22)
+in D:\Users\chenjing07\Desktop\github\trackstar\protected\controllers\ProjectController.php (73)

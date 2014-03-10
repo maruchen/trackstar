@@ -12,6 +12,16 @@ $this->menu=array(
 );
 ?>
 
+<?php if ($sysMessage != null): ?>
+    <div class = "sys-message">
+        <?php echo $sysMessage; ?>
+    </div>
+<?php
+    Yii::app()->clientScript->registerScript(
+        'fadeAndHideEffect',
+        '$(".sys-message").animate({opacity: 1.0}, 5000).fadeOut("slow");'
+    );
+endif; ?>
 <h1>Projects</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
@@ -19,11 +29,16 @@ $this->menu=array(
 	'itemView'=>'_view',
 )); ?>
 
-<?php $this->beginWidget('zii.widgets.CPortlet', array(
-    'title' => 'Recent Comments',
-));
-$this->widget('RecentComments');
-$this->endWidget();
+<?php
+$key = "TrackStar.ProjectListing.RecentComments";
+if ($this->beginCache($key, array('duration'=>120))) {
+    $this->beginWidget('zii.widgets.CPortlet', array(
+        'title' => 'Recent Comments',
+    ));
+    $this->widget('RecentComments');
+    $this->endWidget();
+    $this->endCache();
+}
 ?>
 
 

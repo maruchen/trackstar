@@ -144,8 +144,24 @@ class ProjectController extends Controller
             'alternate',
             'application/rss+xml',
             $this->createUrl('comment/feed'));
+
+        // get the latest system message to display based on the update_time colunm
+        /*
+        $sysMessage = SysMessage::model()->find(array(
+            'order' => 't.update_time DESC',
+        ));
+         */
+        $sysMessage = SysMessage::getLatest();
+
+        if ($sysMessage != null) {
+            $message = $sysMessage->message;
+        } else {
+            $message = null;
+        }
+
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
+            'sysMessage' => $message,
 		));
 	}
 

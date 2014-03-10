@@ -17,6 +17,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.modules.admin.models.*',
 	),
 
 	'modules'=>array(
@@ -26,6 +27,7 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
+        'admin',
 	),
 
 	// application components
@@ -68,7 +70,16 @@ return array(
 			'routes'=>array(
 				array(
 					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+					'levels'=>'error',
+				),
+				array(
+					'class'=>'CFileLogRoute',
+					'levels'=>'info, trace',
+                    'logFile' => 'infoMessages.log',
+				),
+				array(
+					'class'=>'CWebLogRoute',
+					'levels'=>'warning',
 				),
 				// uncomment the following to show log messages on web pages
 				/*
@@ -78,6 +89,9 @@ return array(
 				*/
 			),
 		),
+        'cache' => array(
+            'class' => 'system.caching.CFileCache',
+        ),
 	),
 
 	// application-level parameters that can be accessed
